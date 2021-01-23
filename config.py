@@ -3,12 +3,12 @@ from os import environ
 from pyrogram import filters
 
 
-API_ID = environ.get('API_ID') # Get these two from https://my.telegram.org eg:1234567
-API_HASH = environ.get('API_HASH') # Get these two from https://my.telegram.org.  eg:ab1c23def45fg67890h123i45678j9kl
-TOKEN = environ.get('TOKEN')   ## Get this from @Botfather eg:1234567890:ABCdEFgHij1KlMNop_QrStuVWxyzuA-EmXI
-SUDO_USERS = environ.get('SUDO_USERS') # The IDs of the users which can stream, skip, pause and change volume. eg: 625145821
-GROUP = environ.get('GROUP') # The ID of the group where your bot streams. eg:-1001402753006
-MONGO_DB_URI = environ.get('MONGO_DB_URI') # Your mongodb uri. eg:mongodb+srv://username:password@vcpb.opda3.mongodb.net/<dbname>?retryWrites=true&w=majority
+API_ID = environ.get('1319693') # Get these two from https://my.telegram.org eg:1234567
+API_HASH = environ.get('25976035403b1269f2793be2bb48c8ab') # Get these two from https://my.telegram.org.  eg:ab1c23def45fg67890h123i45678j9kl
+TOKEN = environ.get('1533082511:AAFa-wHYv0CPFEWRpXF9pxPePUJmLBI8z2E')   ## Get this from @Botfather eg:1234567890:ABCdEFgHij1KlMNop_QrStuVWxyzuA-EmXI
+SUDO_USERS = environ.get('1086725567') # The IDs of the users which can stream, skip, pause and change volume. eg: 625145821
+GROUP = environ.get('-1001235672935') # The ID of the group where your bot streams. eg:-1001402753006
+MONGO_DB_URI = environ.get('mongodb+srv://bot:bot@vcpb.ffrq2.mongodb.net/<dbname>?retryWrites=true&w=majority') # Your mongodb uri. eg:mongodb+srv://username:password@vcpb.opda3.mongodb.net/<dbname>?retryWrites=true&w=majority
 USERS_MUST_JOIN = environ.get('USERS_MUST_JOIN', 'False') # Users must join the group before using the bot (note: the bot should be admin in the group if you enable this)
 LANG = environ.get('LANG', 'en') # Choose the preferred language for your bot. If English leave as it is, or change to the code of any supported language.
 DUR_LIMIT = environ.get('DUR_LIMIT', 10) # Max video duration allowed for user downloads in minutes
